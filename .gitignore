@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+.env
+mlruns/
+data/raw/*
+!data/raw/.gitkeep
+models/*.pkl
+models/*.pt
+.DS_Store
