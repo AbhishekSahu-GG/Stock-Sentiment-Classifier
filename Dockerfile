@@ -8,7 +8,6 @@ COPY requirements-prod.txt .
 RUN pip install --no-cache-dir -r requirements-prod.txt
 
 COPY src/ ./src/
-COPY models/distilbert/ ./models/distilbert/
 
 EXPOSE 8000
 

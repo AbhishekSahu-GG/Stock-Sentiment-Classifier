@@ -4,7 +4,7 @@ import os
 
 from transformers import DistilBertTokenizer, DistilBertForSequenceClassification
 
-MODEL_PATH = "models/distilbert"
+MODEL_PATH = "MightyEagle1/stock-sentiment-distilbert"
 LABEL_MAP = {0: "negative", 1: "neutral", 2: "positive"}
 
 def load_model():
