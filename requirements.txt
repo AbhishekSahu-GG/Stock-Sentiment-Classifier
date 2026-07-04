@@ -7,3 +7,7 @@ jupyter
 datasets==3.2.0
 huggingface_hub
 mlflow==2.14.2
+transformers
+torch==2.8.0
+fastapi
+uvicorn
