@@ -15,3 +15,4 @@ data/raw/Sentences_50Agree.txt
 data/raw/financial_phrasebank.csv
 mlflow.db
 venv311-stock/
+models/distilbert/
