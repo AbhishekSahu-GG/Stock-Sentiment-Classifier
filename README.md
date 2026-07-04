@@ -110,8 +110,8 @@ stock-sentiment-classifier/
 
 ### Run with Docker
 ```bash
-docker pull abhisheksahu-gg/stock-sentiment-classifier
-docker run -p 8000:8000 stock-sentiment-classifier
+docker pull mightyeagle0/stock-sentiment-api:v2
+docker run -p 8000:8000 mightyeagle0/stock-sentiment-api:v2
 ```
 
 ### Run locally
