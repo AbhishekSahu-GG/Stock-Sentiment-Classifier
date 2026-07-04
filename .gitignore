@@ -7,4 +7,11 @@ data/raw/*
 !data/raw/.gitkeep
 models/*.pkl
 models/*.pt
+!models/baseline_logreg.pkl
+!models/tfidf_vectorizer.pkl
 .DS_Store
+!data/raw/financial_phrasebank_clean.csv
+data/raw/Sentences_50Agree.txt
+data/raw/financial_phrasebank.csv
+mlflow.db
+venv311-stock/
