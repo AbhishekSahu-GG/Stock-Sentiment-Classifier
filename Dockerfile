@@ -2,8 +2,10 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+
+COPY requirements-prod.txt .
+RUN pip install --no-cache-dir -r requirements-prod.txt
 
 COPY src/ ./src/
 COPY models/distilbert/ ./models/distilbert/
