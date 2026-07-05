@@ -156,7 +156,7 @@ Open `http://127.0.0.1:5000` to compare experiment runs.
 ## Model
 
 Fine-tuned model hosted on HuggingFace Hub:
-**[AbhishekSahu-GG/stock-sentiment-distilbert](https://huggingface.co/AbhishekSahu-GG/stock-sentiment-distilbert)**
+**[MightyEagle1/stock-sentiment-distilbert](https://huggingface.co/MightyEagle1/stock-sentiment-distilbert)**
 
 ---
 
@@ -170,4 +170,4 @@ Fine-tuned model hosted on HuggingFace Hub:
 
 ## Tech Stack
 
-Python · PyTorch · HuggingFace Transformers · MLflow · FastAPI · Docker · Scikit-learn · Pandas
+Python · PyTorch · HuggingFace Transformers · MLflow · FastAPI · Docker · Scikit-learn · Pandas · CI/CD
